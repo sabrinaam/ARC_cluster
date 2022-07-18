@@ -1,2 +1,3 @@
 # ARC_cluster
-Cluster usage, slurm files
+Sample Rscript and slurm files to use ARC in Virginia Tech
+
