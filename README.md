@@ -91,12 +91,16 @@ scancel jobid
 ## Tips for farmcpu
 
 1. Be careful about GAPIT download.
+```
 .libPaths()
 .libPaths(.libPaths()[3:1])
 
 install.packages("devtools", repos = "http://cran.us.r-project.org")
+
 devtools::install_github("jiabowang/GAPIT3",force=TRUE)
+
 library(GAPIT3)
+```
 
 2. knitr::purl("purl.Rmd”, documentation = 0)
 Used to transfer rmd to .r
