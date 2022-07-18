@@ -13,8 +13,8 @@ scp -r
 ## Steps to install R in arc.
 ### Step1
 1. Log into your thinkerclffs account via terminal 
-	ssh yebi@tinkercliffs2.arc.vt.edu or
- 	yebi@tinkercliffs1.arc.vt.edu
+	ssh urid@tinkercliffs2.arc.vt.edu or
+ 	urid@tinkercliffs1.arc.vt.edu
 ### Step2
 2. Module list 
 	to see how many modules you already have
@@ -102,5 +102,5 @@ devtools::install_github("jiabowang/GAPIT3",force=TRUE)
 library(GAPIT3)
 ```
 
-2. knitr::purl("purl.Rmd”, documentation = 0)
-Used to transfer rmd to .r
+2. Used to transfer rmd to .r
+`knitr::purl("purl.Rmd”, documentation = 0)`
