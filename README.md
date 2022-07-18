@@ -104,3 +104,6 @@ library(GAPIT3)
 
 2. Used to transfer rmd to .r
 `knitr::purl("purl.Rmd”, documentation = 0)`
+
+3. liji method Rscript and slurm files are sample files for real data. 
+
