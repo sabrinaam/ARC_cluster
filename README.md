@@ -10,7 +10,7 @@ scp test.R urid@tinkercliffs1.arc.vt.edu:/folder/position
 scp -r
 
 
-## Steps to install R in arc.
+## Steps to install and use R in ARC.
 ### Step1
 1. Log into your thinkerclffs account via terminal 
 	ssh urid@tinkercliffs2.arc.vt.edu or
