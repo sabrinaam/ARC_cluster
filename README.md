@@ -1,38 +1,34 @@
 # ARC_cluster
-Sample Rscript and slurm files to use ARC in Virginia Tech
+## Sample Rscript and slurm files to use ARC in Virginia Tech
 
 
 
-##
-Copy single file:
-##
+# Copy single file:
 scp /Users/yebi/Library/CloudStorage/OneDrive-VirginiaTech/Research/Codes/research/RiceUNLMetabolites/GWAS4met/R_codes/GAPIT/gapit_d1-h3.R yebi@tinkercliffs1.arc.vt.edu:/home/yebi/R/UNLMetabolites/farmcpu
 
-##
-Copy whole folder: scp -r
-##
+# Copy whole folder: 
+scp -r
 
-##Steps to install R in arc.
+
+# Steps to install R in arc.
+## Step1
 1. Log into your thinkerclffs account via terminal 
 	ssh yebi@tinkercliffs2.arc.vt.edu or
  	yebi@tinkercliffs1.arc.vt.edu
-
+## Step2
 2. Module list 
 	to see how many modules you already have
-
+## Step3
 3. Module spider singularity 
 	to find the specific version of singularity
-
+## Step4
 4. Try module load containers/singularity/3.8.5 
 	Then “module list” to see if singularity is there or not.
-
-
+## Step5
 5. Nano run_R.sh as following.
 
-##
-sample slurm file
-##
-
+# sample slurm file
+```
 #!/bin/bash
 
 ### run_R.sh
@@ -65,7 +61,7 @@ singularity exec --bind=/work,/projects \
     /projects/arcsingularity/ood-rstudio141717-bio_4.1.0.sif Rscript hp_mpg.R
 
 exit;
-
+```
 
 
 6. Nano hp_mpg.R as following:
