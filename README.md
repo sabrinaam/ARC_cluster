@@ -84,7 +84,7 @@ ggsave(file="hp_mpg.pdf",p)
 scancel jobid
 
 ## Step9
-9.ls | wc -l
+9. ls | wc -l
 
 
 
