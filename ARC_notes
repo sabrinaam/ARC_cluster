@@ -1,9 +1,13 @@
+##
 Copy single file:
+##
 scp /Users/yebi/Library/CloudStorage/OneDrive-VirginiaTech/Research/Codes/research/RiceUNLMetabolites/GWAS4met/R_codes/GAPIT/gapit_d1-h3.R yebi@tinkercliffs1.arc.vt.edu:/home/yebi/R/UNLMetabolites/farmcpu
 
+##
 Copy whole folder: scp -r
+##
 
-
+##Steps to install R in arc.
 1. Log into your thinkerclffs account via terminal 
 	ssh yebi@tinkercliffs2.arc.vt.edu or
  	yebi@tinkercliffs1.arc.vt.edu
@@ -20,6 +24,9 @@ Copy whole folder: scp -r
 
 5. Nano run_R.sh as following.
 
+##
+sample slurm file
+##
 
 #!/bin/bash
 
