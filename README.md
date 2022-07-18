@@ -4,7 +4,7 @@ Sample Rscript and slurm files to use ARC in Virginia Tech
 
 
 ## Copy single file:
-scp /Users/yebi/Library/CloudStorage/OneDrive-VirginiaTech/Research/Codes/research/RiceUNLMetabolites/GWAS4met/R_codes/GAPIT/gapit_d1-h3.R yebi@tinkercliffs1.arc.vt.edu:/home/yebi/R/UNLMetabolites/farmcpu
+scp test.R urid@tinkercliffs1.arc.vt.edu:/folder/position
 
 ## Copy whole folder: 
 scp -r
