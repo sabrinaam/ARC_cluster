@@ -103,6 +103,7 @@ library(GAPIT3)
 ```
 
 2. Used to transfer rmd to .r
+
 `knitr::purl("purl.Rmd”, documentation = 0)`
 
 3. 'liji_par1.R' and 'liji_part1.sh' files are sample files for real data. 
